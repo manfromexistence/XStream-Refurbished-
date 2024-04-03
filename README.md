@@ -1,5 +1,5 @@
 
-# Project Name: Blockchain Project Starter
+# Running a Blockchain project for Dev Space at upwork.
 
 ## Description
 This project aims to create a functional blockchain application using Ethereum smart contracts. It provides a solid foundation for developers who want to build decentralized applications (DApps) or explore blockchain technology.
@@ -13,7 +13,7 @@ This project aims to create a functional blockchain application using Ethereum s
 
 ## Prerequisites
 Before running the project, ensure you have the following installed:
-- **Node.js**: Required for Truffle and other dependencies.
+- **Next.js**: Tech stack.
 - **Truffle**: Framework for Ethereum development.
 - **Ganache**: Local Ethereum blockchain for testing.
 - **Metamask**: Browser extension for wallet management.
