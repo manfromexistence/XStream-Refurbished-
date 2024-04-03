@@ -1,6 +1,4 @@
 
----
-
 # Project Name: Blockchain Project Starter
 
 ## Description
