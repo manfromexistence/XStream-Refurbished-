@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://dx.vercel.app">
-    <img src="./public/logo.png" height="250">
+    <img src="https://github.com/manfromexistence/xstream/assets/89142466/f41c9e52-d5eb-4fcc-ab59-593c2ad40aaa" height="250">
     <h3 align="center">Dx</h3>
   </a>
 </p>
