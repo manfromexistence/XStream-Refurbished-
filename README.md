@@ -19,9 +19,6 @@
 <br/> -->
 
 # Running a Blockchain project for Dev Space at upwork.
-
-## Description
-
 This project aims to create a functional blockchain application using Ethereum smart contracts. It provides a solid foundation for developers who want to build decentralized applications (DApps) or explore blockchain technology.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/manfromexistence/xstream.git)
