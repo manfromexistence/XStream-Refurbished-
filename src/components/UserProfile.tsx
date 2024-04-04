@@ -35,7 +35,7 @@ const UserProfile: React.FC<UserProfileProps> = ({
               <Image
                 alt="Profile Picture"
                 src={`https://ipfs.io/ipfs/${userData?.profilePicture}`}
-                objectFit="cover"
+                
                 width={200}
                 height={200}
               ></Image>

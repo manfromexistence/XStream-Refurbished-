@@ -97,7 +97,7 @@ const HostView = () => {
             <Image
               alt="Profile Picture"
               src={`https://ipfs.io/ipfs/${streamerData?.profilePicture}`}
-              objectFit="cover"
+              
               width={200}
               height={200}
             ></Image>

@@ -46,7 +46,7 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ collection }) => {
               alt="Profile Picture"
               //@ts-ignore
               src={IShowSpeed}
-              objectFit="cover"
+              
               width={200}
               height={200}
             ></Image>

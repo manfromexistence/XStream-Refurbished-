@@ -83,7 +83,7 @@ const StreamComponent: React.FC<StreamComponentProps> = ({ livestream }) => {
               alt="Profile Picture"
               //@ts-ignore
               src={`https://ipfs.io/ipfs/${streamerData?.profilePicture}`}
-              objectFit="cover"
+              
               width={200}
               height={200}
             ></Image>

@@ -168,7 +168,7 @@ const StreamerProfile: React.FC<IStreamerProfileProps> = ({
               }`}
               alt="Profile Picture"
               layout="fill"
-              objectFit="contain"
+              
               className="object-cover h-full w-full rounded-[50%]"
             />
           )}

@@ -251,7 +251,7 @@ const Lobby = () => {
                   src={selectedImage}
                   alt="Profile Picture"
                   layout="fill"
-                  objectFit="contain"
+                  
                   className="object-cover h-full w-full"
                 />
                 <input

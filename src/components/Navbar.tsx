@@ -94,7 +94,7 @@ const Navbar: React.FC<NavbarProps> = ({ isSticky }) => {
                     ? `https://ipfs.io/ipfs/${streamerData?.profilePicture}`
                     : Account
                 }
-                objectFit="cover"
+                
                 width={200}
                 height={200}
               ></Image>

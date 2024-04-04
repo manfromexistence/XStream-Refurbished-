@@ -32,7 +32,7 @@ const { chains, provider } = configureChains(
   [
     jsonRpcProvider({
       rpc: () => ({
-        http: "https://responsive-lively-brook.quiknode.pro/4bc6ee0cd8f90e1457df450bc756c10547be2f32",
+        http: "https://floral-weathered-sponge.matic-amoy.quiknode.pro/a2a6c84103f49f2006ecedb9148ea883a99c7bc8/",
       }),
     }),
   ]
