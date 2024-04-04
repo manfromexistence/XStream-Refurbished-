@@ -8,14 +8,25 @@ import { useHuddle01 } from "@huddle01/react";
 import { publicProvider } from "wagmi/providers/public";
 import { polygonMumbai } from "wagmi/chains";
 import Context from "../contexts/context";
-import { WagmiConfig } from "wagmi";
-import { configureChains } from "wagmi";
-import { createClient } from "wagmi";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
 import { SignerContextProvider } from "@/contexts/signerContext";
 import { StreamContextProvider } from "@/contexts/streamContext";
 import { CurrentUserOrStreamerContextProvider } from "@/contexts/currUserOrStreamerContext";
+import {
+  connectorsForWallets,
+} from '@rainbow-me/rainbowkit';
+import {
+  argentWallet,
+  imTokenWallet,
+  ledgerWallet,
+  omniWallet,
+  trustWallet,
+} from '@rainbow-me/rainbowkit/wallets';
+import { configureChains, createClient, WagmiConfig } from 'wagmi';
+import { arbitrum, bsc, mainnet, optimism, polygon } from 'wagmi/chains';
+import { alchemyProvider } from 'wagmi/providers/alchemy';
 
+const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT as string;
 const { chains, provider } = configureChains(
   [polygonMumbai],
   [
@@ -27,11 +38,31 @@ const { chains, provider } = configureChains(
   ]
 );
 
-const { connectors } = getDefaultWallets({
-  appName: "My RainbowKit App",
-  projectId: process.env.NEXT_PUBLIC_WALLETCONNECT as string,
+// const { connectors } = getDefaultWallets({
+//   appName: "My RainbowKit App",
+//   projectId: process.env.NEXT_PUBLIC_WALLETCONNECT as string,
+//   chains,
+// });
+
+const { wallets } = getDefaultWallets({
+  appName: 'rainbowkit.com',
   chains,
+  projectId,
 });
+
+const connectors = connectorsForWallets([
+  ...wallets,
+  {
+    groupName: 'More',
+    wallets: [
+      argentWallet({ chains, projectId }),
+      trustWallet({ chains, projectId }),
+      omniWallet({ chains, projectId }),
+      imTokenWallet({ chains, projectId }),
+      ledgerWallet({ chains, projectId }),
+    ],
+  },
+]);
 
 // const config = createConfig({
 //   autoConnect: true,

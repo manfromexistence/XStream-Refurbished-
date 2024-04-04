@@ -61,33 +61,34 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: linear-gradient(
-    91.26deg,
-    rgb(209, 75, 75) 5%,
-    rgb(132, 47, 47) 70%
-  );
+  background: linear-gradient(91.26deg,
+      rgb(209, 75, 75) 5%,
+      rgb(132, 47, 47) 70%);
   filter: blur(200px);
   position: absolute;
   transform: translate(-50%, -50%);
-  left: 20%; /* Set the initial position */
-  top: 45%; /* Set the initial position */
+  left: 20%;
+  /* Set the initial position */
+  top: 45%;
+  /* Set the initial position */
 }
 
 .bg1::before {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: radial-gradient(
-    circle,
-    rgb(132, 47, 47) 70%,
-    rgb(209, 75, 75) 5%
-  );
+  background: radial-gradient(circle,
+      rgb(132, 47, 47) 70%,
+      rgb(209, 75, 75) 5%);
   filter: blur(150px);
   transform: matrix(-0.08, -0.99, 1, 0.05, 0, 0);
   position: absolute;
-  left: 70%; /* Set the initial position */
-  top: 60%; /* Set the initial position */
-  transform: translate(-50%, -50%); /* Center the div */
+  left: 70%;
+  /* Set the initial position */
+  top: 60%;
+  /* Set the initial position */
+  transform: translate(-50%, -50%);
+  /* Center the div */
 }
 
 /* Background 2 */
@@ -108,15 +109,15 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: linear-gradient(
-    91.26deg,
-    rgb(209, 75, 75) 5%,
-    rgb(132, 47, 47) 70%
-  );
+  background: linear-gradient(91.26deg,
+      rgb(209, 75, 75) 5%,
+      rgb(132, 47, 47) 70%);
   filter: blur(200px);
   transform: translate(-50%, -50%);
-  left: 10%; /* Set the initial position */
-  top: 65%; /* Set the initial position */
+  left: 10%;
+  /* Set the initial position */
+  top: 65%;
+  /* Set the initial position */
   position: absolute;
 }
 
@@ -124,15 +125,16 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: radial-gradient(
-    circle,
-    rgb(121, 113, 113) 70%,
-    rgb(237, 227, 227) 5%
-  );
+  background: radial-gradient(circle,
+      rgb(121, 113, 113) 70%,
+      rgb(237, 227, 227) 5%);
   filter: blur(150px);
-  left: 90%; /* Set the initial position */
-  top: 10%; /* Set the initial position */
-  transform: translate(-50%, -50%); /* Center the div */
+  left: 90%;
+  /* Set the initial position */
+  top: 10%;
+  /* Set the initial position */
+  transform: translate(-50%, -50%);
+  /* Center the div */
   position: absolute;
 }
 
@@ -154,16 +156,16 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: linear-gradient(
-    91.26deg,
-    rgb(209, 75, 75) 5%,
-    rgb(132, 47, 47) 70%
-  );
+  background: linear-gradient(91.26deg,
+      rgb(209, 75, 75) 5%,
+      rgb(132, 47, 47) 70%);
   filter: blur(200px);
   position: absolute;
   transform: translate(-50%, -50%);
-  left: 90%; /* Set the initial position */
-  top: 85%; /* Set the initial position */
+  left: 90%;
+  /* Set the initial position */
+  top: 85%;
+  /* Set the initial position */
   position: absolute;
 }
 
@@ -171,16 +173,17 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: radial-gradient(
-    circle,
-    rgb(121, 113, 113) 70%,
-    rgb(237, 227, 227) 5%
-  );
+  background: radial-gradient(circle,
+      rgb(121, 113, 113) 70%,
+      rgb(237, 227, 227) 5%);
   filter: blur(150px);
   position: absolute;
-  left: 35%; /* Set the initial position */
-  top: 40%; /* Set the initial position */
-  transform: translate(-50%, -50%); /* Center the div */
+  left: 35%;
+  /* Set the initial position */
+  top: 40%;
+  /* Set the initial position */
+  transform: translate(-50%, -50%);
+  /* Center the div */
   position: absolute;
 }
 
@@ -202,16 +205,16 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: linear-gradient(
-    91.26deg,
-    rgb(209, 75, 75) 5%,
-    rgb(132, 47, 47) 70%
-  );
+  background: linear-gradient(91.26deg,
+      rgb(209, 75, 75) 5%,
+      rgb(132, 47, 47) 70%);
   filter: blur(200px);
   position: absolute;
   transform: translate(-50%, -50%);
-  left: 20%; /* Set the initial position */
-  top: 65%; /* Set the initial position */
+  left: 20%;
+  /* Set the initial position */
+  top: 65%;
+  /* Set the initial position */
   position: absolute;
 }
 
@@ -219,16 +222,17 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: radial-gradient(
-    circle,
-    rgb(121, 113, 113) 70%,
-    rgb(237, 227, 227) 5%
-  );
+  background: radial-gradient(circle,
+      rgb(121, 113, 113) 70%,
+      rgb(237, 227, 227) 5%);
   filter: blur(150px);
   position: absolute;
-  left: 75%; /* Set the initial position */
-  top: 80%; /* Set the initial position */
-  transform: translate(-50%, -50%); /* Center the div */
+  left: 75%;
+  /* Set the initial position */
+  top: 80%;
+  /* Set the initial position */
+  transform: translate(-50%, -50%);
+  /* Center the div */
   position: absolute;
 }
 
@@ -250,16 +254,16 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: linear-gradient(
-    91.26deg,
-    rgb(209, 75, 75) 5%,
-    rgb(132, 47, 47) 70%
-  );
+  background: linear-gradient(91.26deg,
+      rgb(209, 75, 75) 5%,
+      rgb(132, 47, 47) 70%);
   filter: blur(200px);
   position: absolute;
   transform: translate(-50%, -50%);
-  left: 20%; /* Set the initial position */
-  top: 65%; /* Set the initial position */
+  left: 20%;
+  /* Set the initial position */
+  top: 65%;
+  /* Set the initial position */
   position: absolute;
 }
 
@@ -267,16 +271,17 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: radial-gradient(
-    circle,
-    rgb(121, 113, 113) 70%,
-    rgb(237, 227, 227) 5%
-  );
+  background: radial-gradient(circle,
+      rgb(121, 113, 113) 70%,
+      rgb(237, 227, 227) 5%);
   filter: blur(150px);
   position: absolute;
-  left: 75%; /* Set the initial position */
-  top: 80%; /* Set the initial position */
-  transform: translate(-50%, -50%); /* Center the div */
+  left: 75%;
+  /* Set the initial position */
+  top: 80%;
+  /* Set the initial position */
+  transform: translate(-50%, -50%);
+  /* Center the div */
   position: absolute;
 }
 
@@ -292,42 +297,41 @@ body {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: linear-gradient(
-    91.26deg,
-    rgb(209, 75, 75) 5%,
-    rgb(132, 47, 47) 70%
-  );
+  background: linear-gradient(91.26deg,
+      rgb(209, 75, 75) 5%,
+      rgb(132, 47, 47) 70%);
   filter: blur(200px);
   position: absolute;
   transform: translate(-50%, -50%);
-  left: 20%; /* Set the initial position */
-  top: 65%; /* Set the initial position */
+  left: 20%;
+  /* Set the initial position */
+  top: 65%;
+  /* Set the initial position */
 }
 
 .bg6::before {
   content: "";
   width: 15rem;
   height: 12rem;
-  background: radial-gradient(
-    circle,
-    rgb(132, 47, 47) 70%,
-    rgb(209, 75, 75) 5%
-  );
+  background: radial-gradient(circle,
+      rgb(132, 47, 47) 70%,
+      rgb(209, 75, 75) 5%);
   filter: blur(150px);
   transform: matrix(-0.08, -0.99, 1, 0.05, 0, 0);
   position: absolute;
-  left: 80%; /* Set the initial position */
-  top: 160%; /* Set the initial position */
-  transform: translate(-50%, -50%); /* Center the div */
+  left: 80%;
+  /* Set the initial position */
+  top: 160%;
+  /* Set the initial position */
+  transform: translate(-50%, -50%);
+  /* Center the div */
 }
 
 .linear-text {
-  background: linear-gradient(
-    190deg,
-    #fafafa 0%,
-    #8a0000 52.6%,
-    rgba(250, 250, 250, 0.2) 79.11%
-  );
+  background: linear-gradient(190deg,
+      #fafafa 0%,
+      #8a0000 52.6%,
+      rgba(250, 250, 250, 0.2) 79.11%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -336,18 +340,22 @@ body {
 /* Style for the custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: transparent; /* Set the background color of the scrollbar track */
+  background-color: transparent;
+  /* Set the background color of the scrollbar track */
 }
 
 ::-webkit-scrollbar-thumb {
   margin-left: 1rem;
   margin-right: 1rem;
-  background-color: #c20027; /* Set the color of the scrollbar thumb (the moving part) */
-  border-radius: 12px; /* Add soft edges to the scrollbar thumb */
+  background-color: #c20027;
+  /* Set the color of the scrollbar thumb (the moving part) */
+  border-radius: 12px;
+  /* Add soft edges to the scrollbar thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #8a0000; /* Change the color on hover if desired */
+  background-color: #8a0000;
+  /* Change the color on hover if desired */
 }
 
 .profile {
@@ -355,7 +363,8 @@ body {
 }
 
 .border-shadow {
-  box-shadow: 0 0 30px 3px rgb(62, 16, 10, 0.5); /* Adjust the shadow color and spread as needed */
+  box-shadow: 0 0 30px 3px rgb(62, 16, 10, 0.5);
+  /* Adjust the shadow color and spread as needed */
 }
 
 .parent-div {
@@ -416,9 +425,19 @@ body {
 }
 
 
-.ju367va div:nth-child(3){
+/* .ju367va div:nth-child(3){
   display: none;
 }
 .ju367v1u{
   display: flex !important;
+} */
+
+/* .iekbcc0.ju367v2.ju367v8l._9pm4ki3.ju367v9b.ju367vax.ju367va.ju367v2l.ju367v8l {
+  display: none !important;
+} */
+
+button[data-testid="rk-wallet-option-metaMask"] {
+
+  display: none  !important;
+
 }
