@@ -20,11 +20,11 @@
 
 # Running a Blockchain project for Dev Space at upwork.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/astro&template=astro)
-
 ## Description
 
 This project aims to create a functional blockchain application using Ethereum smart contracts. It provides a solid foundation for developers who want to build decentralized applications (DApps) or explore blockchain technology.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/manfromexistence/xstream.git)
 
 1. Install dependencies:
    ```
@@ -34,7 +34,6 @@ This project aims to create a functional blockchain application using Ethereum s
 
    ```
    NEXT_PUBLIC_NFTSTORAGE_KEY
-
    ```
 3. This Walletconnect key, you can this from https://walletconnect.com/
 
@@ -45,7 +44,6 @@ This project aims to create a functional blockchain application using Ethereum s
 
    ```
    NEXT_PUBLIC_HUDDLE01_PROJECT_ID
-
    ```
 5. This is api key to start your livestream using the sdk of huddle01, you can also get this from https://docs.huddle01.com/
 
