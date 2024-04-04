@@ -5,7 +5,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
     const { data } = await axios.post(
-      'https://iriko.testing.huddle01.com/api/v1/create-room',
+      'https://api.huddle01.com/api/v1/create-room',
       {
         title: 'Huddle01-Test',
         roomLock: false,
